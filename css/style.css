@@ -48,11 +48,12 @@ p{
 }
 
 .nav-bar{
-    width: 100%;
+    min-width: 1200px;
+    width:100vw;
     height: 80px;
     border: 2px solid white;
-    background-color: black;
-    /* text-align: center; */
+    background-color: rgb(19, 18, 18);
+    
 }
 
 .audio-video{
@@ -69,10 +70,11 @@ p{
     border: 2px solid blueviolet;
 }
 
-.metting-nav{
+.meeting-nav{
     width: 25%;
-    height: 100%;
     border: 2px solid yellow;
+    justify-content: flex-end;
+    
 }
 
 .fas{
@@ -90,6 +92,7 @@ h3{
 
 ul{
     text-align: center;
+    justify-content: center;
 }
 
 h6{
@@ -105,7 +108,7 @@ li{
 }
 
 ul li i{
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     color: white;
 }
 
@@ -117,3 +120,12 @@ ul li i{
     color: green;
 }
 
+
+
+h5{
+    color: red;
+    background-color: gray;
+    padding: 20px;
+    align-self: center;
+
+}

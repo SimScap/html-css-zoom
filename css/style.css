@@ -4,7 +4,6 @@
     padding: 0;
     margin: 0;
 }
-
 header{
     background-color: black;
     height: 80px;
@@ -14,13 +13,10 @@ main{
     height: calc(100vh - 160px);
     background-color: black;
     border: 2px solid red;
-
 }
-
 .flex{
     display: flex;
 }
-
 .container{
     width: 90vw;
     border: 2px solid green;
@@ -29,16 +25,14 @@ main{
     overflow-y: auto;
     margin: 0 auto;
 
-
 }
-
 .img{
     width: 250px;
     height: 150px;
     background-image: url(https://picsum.photos/400/300);
     border: 2px solid purple;
+    margin-bottom: 1rem;
 }
-
 p{
     align-self: flex-end;
     color: white;
@@ -46,7 +40,6 @@ p{
     padding: 3px;
     border-radius: 5px;
 }
-
 .nav-bar{
     min-width: 1200px;
     width:100vw;
@@ -55,7 +48,6 @@ p{
     background-color: rgb(19, 18, 18);
     
 }
-
 .audio-video{
     width: 25%;
     height:100%;
@@ -63,69 +55,55 @@ p{
     justify-content: space-between;
     
 }
-
 .central-nav{
     width: 50%;
     height: 100%;
     border: 2px solid blueviolet;
 }
-
 .meeting-nav{
     width: 25%;
     border: 2px solid yellow;
     justify-content: flex-end;
     
 }
-
 .fas{
     color: white;
 }
-
 h3{
     color: white;
     align-self: flex-end;
 }
-
 .fa-microphone-slash{
     margin-right: .4rem;
 }
-
 ul{
     text-align: center;
     justify-content: center;
 }
-
 h6{
     color: white; 
     font-size: 0.7rem;
     padding: 10px; 
 }
-
 li{
     display: inline-block;
     padding: 5px;
     
 }
-
 ul li i{
     font-size: 1.6rem;
     color: white;
 }
-
 .fa-chevron-up{
     align-self: center;
 }
-
 .fa-share-square{
     color: green;
 }
-
-
-
 h5{
     color: red;
     background-color: gray;
     padding: 20px;
     align-self: center;
-
 }
+
